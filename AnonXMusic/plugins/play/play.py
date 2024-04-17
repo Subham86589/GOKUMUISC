@@ -20,8 +20,8 @@ from AnonXMusic.utils.inline import(
     slider_markup,
     track_markup,
 )
-from DAXXMUSIC.utils.logger import play_logs
-from DAXXMUSIC.utils.stream.stream import stream
+from AnonXMusic.utils.logger import play_logs
+from AnonXMusic.utils.stream.stream import stream
 from config import BANNED_USERS, lyrical
 
 
