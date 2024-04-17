@@ -29,7 +29,7 @@ from config import BANNED_USERS, lyrical
    filters.command(["play", "vplay", "cplay", "cvplay", "playforce", "vplayforce", "cplayforce", "cvplayforce"] ,prefixes=["/", "!", "%", ",", "", ".", "@", "#"])
             
 )           
-    & filters.group
+    
     & ~BANNED_USERS
 
 @PlayWrapper
