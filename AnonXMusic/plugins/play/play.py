@@ -540,6 +540,8 @@ async def play_playlists_command(client, CallbackQuery, _):
     if ptype == "yt":
         spotify = False
         try:
-            result = await YouTube.playlist(
+            result = await YouTube.playlist
                 videoid,
-                config.PLAYLIS
+                config.PLAYLIS() 
+                
+
